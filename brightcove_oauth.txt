@@ -1,0 +1,6 @@
+{
+"account_id" : "<Brightcove account ID>",
+"client_secret" : "<client secret>",
+  "client_id" : "<client id>"
+  }
+
