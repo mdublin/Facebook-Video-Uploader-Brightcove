@@ -9,6 +9,8 @@ http://stackoverflow.com/questions/17197970/facebook-permanent-page-access-token
 
 NOTE:
 
-The first commit in the FacebookVideoUploader.py script is intended to parse any MRSS or JSON feed, by tag with associated video metadata and source URL, for upload to Facebook. But the recent commit is built to directly call to Brightcove's CMS API to pull assets by tag. 
+FacebookVideoUploader.py makes the required multiple calls to Brightcove's CMS API to pull video assets by tag.
+
+As an alternative if you're not using Brightcove, FacebookVideoUploader_02.py is intended to parse any MRSS or JSON feed by tag, with associated video metadata and source URL, for upload to Facebook.
 
 
